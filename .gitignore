@@ -25,3 +25,4 @@ yarn-error.log
 *.sqlite
 .idea
 .DS_Store
+vendor.zip
