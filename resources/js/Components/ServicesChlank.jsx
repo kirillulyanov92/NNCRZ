@@ -2,7 +2,7 @@ import React from 'react'
 
 function ServicesChlank({title, bgcolor}) {
   return (
-    <div className="p-4 lg:w-1/3">
+    <div className="p-4 lg:w-1/3 w-full">
         <div className={`h-full ${bgcolor} border-b-8 bg-opacity-75 px-8 py-10 rounded-lg overflow-hidden text-left relative`}>
             <h1 className="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">{title}</h1>
             <a
