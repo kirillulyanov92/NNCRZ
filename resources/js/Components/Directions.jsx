@@ -36,7 +36,7 @@ const Directions = () => {
             </div>
             {/* Скрытые направления */}
             <div className={`flex flex-wrap -mx-4 mt-4 transition-all duration-500 delay-75 ease-in-out overflow-hidden ${ showMore
-                ? "max-h-[1000px]" : "max-h-0" }`}>
+                ? "md:max-h-[1000px] max-h-[1500px]" : "max-h-0" }`}>
                 {allDirections.slice(6).map((direction, index) => (
                 <DirectionsChlank key={index} imgname={direction.imgname} title={direction.title}
                     bgcolor={direction.bgcolor} bgborder={direction.bgborder} />
