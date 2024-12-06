@@ -1,3 +1,4 @@
+import { Link } from '@inertiajs/react';
 import React, {useState, useEffect} from 'react';
 
 export default function Header() {
@@ -19,11 +20,11 @@ export default function Header() {
     <header className={`fixed top-0 text-gray-600 body-font z-50 w-full ease-in duration-150 ${ isScrolled
         ? "bg-white shadow-md" : "bg-transparent" }`}>
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a className="hidden lg:flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <Link href={route('home')} className="hidden lg:flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 <span className="text-xs uppercase">национальный научный центр развития <br />здравоохранения им.
                     салидат
                     каирбековой</span>
-            </a>
+            </Link>
             <nav className="hidden md:ml-auto md:mr-auto lg:flex flex-wrap items-center text-base justify-center">
                 <a className="mr-5 hover:text-gray-900">Направления</a>
                 <a className="mr-5 hover:text-gray-900">Услуги</a>
