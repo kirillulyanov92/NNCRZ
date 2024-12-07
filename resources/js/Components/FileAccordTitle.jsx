@@ -4,9 +4,9 @@ function FileAccordTitle({title}) {
   return (
     <div className="flex flex-row w-full justify-between p-4 my-4">
         <div className='flex'>
-            <h1 className="sm:text-xl text-2xl font-semibold title-font text-gray-900">{title}</h1>
+            <h1 className="sm:text-xl text-lg font-semibold title-font text-gray-900">{title}</h1>
         </div>
-        <div className='flex'>
+        <div className='flex ml-4 md:ml-0'>
             <a className="cursor-pointer text-black inline-flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                     <path

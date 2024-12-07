@@ -1,8 +1,10 @@
+import { Link } from '@inertiajs/react'
 import React from 'react'
 
-function DirectionsChlank({ title, bgcolor, bgborder, imgname }) {
+function DirectionsChlank({ title, bgcolor, bgborder, imgname, url }) {
   return (
     <div className="xl:w-1/3 md:w-1/2 w-full p-4">
+      <Link href={route(url)}>      
         <div className={`flex flex-row border ${bgcolor} ${bgborder} p-6 rounded-lg`}>
             <div
                 className="w-1/2  content-center items-center">
@@ -12,6 +14,7 @@ function DirectionsChlank({ title, bgcolor, bgborder, imgname }) {
             <h2 className="text-lg text-gray-900 font-semibold">{title}</h2>
             </div>
         </div>
+      </Link>
     </div>
   )
 }

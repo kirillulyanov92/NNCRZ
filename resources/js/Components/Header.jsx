@@ -46,9 +46,9 @@ export default function Header() {
 
             {/* Бургер-меню (мобильная версия) */}
             <div className="lg:hidden flex justify-between w-full">
-                <a className="flex font-medium items-start text-gray-900 mb-4 md:mb-0">
+                <Link href={route('home')} className="flex font-medium items-start text-gray-900 mb-4 md:mb-0">
                     <span className="text-2xl uppercase">NNCRZ</span>
-                </a>
+                </Link>
                 <button onClick={()=> setMenuOpen(!menuOpen)}
                     className="text-gray-900 focus:outline-none content-center mb-4"
                     >

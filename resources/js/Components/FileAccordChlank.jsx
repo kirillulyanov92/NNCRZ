@@ -2,7 +2,7 @@ import React from 'react';
 
 function FileAccordChlank({ description, filetype, img }) {
   return (
-    <div class="p-4 lg:w-1/3">
+    <div class="p-4 md:w-1/3 w-full">
         <div class="flex flex-col h-[250px] bg-white p-8 rounded-xl text-left content-between justify-between">
             <div className='flex'>
                 <h1 class="font-medium leading-relaxed mb-3">{description}</h1>
