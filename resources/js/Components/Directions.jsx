@@ -4,11 +4,11 @@ import DirectionsChlank from './DirectionsChlank';
 const Directions = () => {
     const allDirections = [
         { imgname: 1, title: "Медицинское образование", bgcolor: "bg-green-100", bgborder: "border-green-200", url: "medical.education"},
-        { imgname: 2, title: "Кадровые ресурсы", bgcolor: "bg-rose-100", bgborder: "border-rose-200", url: "medical.education"},
-        { imgname: 3, title: "Электронное здравоохранение", bgcolor: "bg-fuchsia-100", bgborder: "border-fuchsia-200", url: "medical.education"},
+        { imgname: 2, title: "Кадровые ресурсы", bgcolor: "bg-rose-100", bgborder: "border-rose-200", url: "human.resources"},
+        { imgname: 3, title: "Электронное здравоохранение", bgcolor: "bg-fuchsia-100", bgborder: "border-fuchsia-200", url: "electronic.health"},
         { imgname: 4, title: "Аккредитация", bgcolor: "bg-yellow-100", bgborder: "border-yellow-200", url: "medical.education"},
-        { imgname: 5, title: "Лекарственная политика", bgcolor: "bg-violet-100", bgborder: "border-violet-200", url: "medical.education"},
-        { imgname: 6, title: "Клинические протоколы", bgcolor: "bg-blue-100", bgborder: "border-blue-200", url: "medical.education"},
+        { imgname: 5, title: "Оценка технологий здравоохранения", bgcolor: "bg-violet-100", bgborder: "border-violet-200", url: "health.rate"},
+        { imgname: 6, title: "Клинические протоколы", bgcolor: "bg-blue-100", bgborder: "border-blue-200", url: "clinical.protocols"},
         { imgname: 7, title: "Стратегические инициативы и междурародное сотрудничество", bgcolor: "bg-green-100", bgborder: "border-green-200", url: "medical.education"},
         { imgname: 8, title: "Рейтинг медицинских организаций", bgcolor: "bg-blue-100", bgborder: "border-blue-200", url: "medical.education"},
         { imgname: 9, title: "Медицинская наука", bgcolor: "bg-gray-100", bgborder: "border-gray-200", url: "medical.education"},

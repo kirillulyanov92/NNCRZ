@@ -22,6 +22,23 @@ Route::get('/medical-education', function () {
     return Inertia::render('Direction/MedicalEducation');
 })->name('medical.education');
 
+Route::get('/human-resources', function () {
+    return Inertia::render('Direction/HumanResources');
+})->name('human.resources');
+
+Route::get('/electronic-health', function () {
+    return Inertia::render('Direction/ElectronicHealth');
+})->name('electronic.health');
+
+Route::get('/health-rate', function () {
+    return Inertia::render('Direction/HealthRate');
+})->name('health.rate');
+
+Route::get('/clinical-protocols', function () {
+    return Inertia::render('Direction/ClinicalProtocols');
+})->name('clinical.protocols');
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
