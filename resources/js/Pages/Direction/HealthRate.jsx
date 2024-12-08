@@ -33,7 +33,7 @@ export default function HealthRate() {
         </div>
     </section>
     <section class="text-gray-600 body-font">
-        <div class="container px-5 pt-8 pb-24 mx-auto">
+        <div class="container px-5 pt-8 mx-auto">
             <div className='flex flex-row'>
 
                 <FolderChlank h1="Отчеты ОМТ" color="bg-fuchsia-100" colorsec="bg-fuchsia-200" />
