@@ -34,7 +34,7 @@ export default function HealthRate() {
     </section>
     <section class="text-gray-600 body-font">
         <div class="container px-5 pt-8 mx-auto">
-            <div className='flex flex-row'>
+            <div className='flex md:flex-row flex-wrap'>
 
                 <FolderChlank h1="Отчеты ОМТ" color="bg-fuchsia-100" colorsec="bg-fuchsia-200" />
                 <FolderChlank h1="Объединенная комиссия по качеству медицинских услуг" color="bg-fuchsia-100"

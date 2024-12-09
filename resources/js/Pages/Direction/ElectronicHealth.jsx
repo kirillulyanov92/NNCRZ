@@ -40,7 +40,7 @@ export default function ElectronicHealth() {
     </section>
     <section className="text-gray-600 body-font">
         <div className="container px-5 pt-8 pb-24 mx-auto">
-            <div className='flex flex-row'>
+            <div className='flex md:flex-row flex-wrap'>
                 <FolderChlank h1="МКБ-11" color="bg-fuchsia-100" colorsec="bg-fuchsia-200" />
                 <FolderChlank h1="Нормативно-правовые акты" color="bg-fuchsia-100" colorsec="bg-fuchsia-200" />
                 <FolderChlank h1="Стандарты" color="bg-fuchsia-100" colorsec="bg-fuchsia-200" />

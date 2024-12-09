@@ -38,7 +38,7 @@ export default function HumanResources() {
     </section>
     <section class="text-gray-600 body-font">
         <div class="container pt-8 pb-24 mx-auto">
-            <div className='flex flex-row'>
+            <div className='flex md:flex-row flex-wrap'>
 
                 <FolderChlank h1="Выпускникам" color="bg-red-100" colorsec="bg-red-200" />
                 <FolderChlank h1="Руководителям" color="bg-red-100" colorsec="bg-red-200" />
