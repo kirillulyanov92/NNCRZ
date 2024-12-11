@@ -28,12 +28,16 @@ const Dashboard = () => {
     };
 
     return (
-            <div className="p-6 bg-gray-100">
-                <h1 className="text-2xl font-bold mb-4">График</h1>
-                <div className="bg-white p-4 rounded-lg shadow">
-                    <ChartChlank data={chartData} options={chartOptions} />
-                </div>
-            </div>
+        <section className="text-gray-600 body-font">
+           <div className="container mx-auto px-5">
+               <div className="">
+                   <h1 className="text-2xl font-bold mb-4">График</h1>
+                   <div className="bg-white p-4 rounded-lg shadow">
+                       <ChartChlank data={chartData} options={chartOptions} />
+                   </div>
+               </div>
+           </div>
+       </section>
     );
 };
 
