@@ -38,6 +38,10 @@ Route::get('/clinical-protocols', function () {
     return Inertia::render('Direction/ClinicalProtocols');
 })->name('clinical.protocols');
 
+Route::get('/medical-accreditation', function () {
+    return Inertia::render('Direction/MedicalAccreditation');
+})->name('medical.accreditation');
+
 
 
 Route::middleware('auth')->group(function () {
