@@ -61,7 +61,7 @@ export default function Header() {
     transition-all duration-150 ease-in-out opacity-0 scale-95 invisible group-hover:opacity-100 group-hover:scale-100 group-hover:visible flex"
                         style={{ transformOrigin: "top center" }}>
                         {/* Первое меню */}
-                        <ul className="w-96 py-2 border-r">
+                        <ul className="w-96 py-2 border-r border-white/50">
                             {allDirectionsSubLinks.slice(0, 6).map((directionsublink, index) =>(
                                 <DirectionsSubLinks key={index} title={directionsublink.title} url={directionsublink.url} />
 
