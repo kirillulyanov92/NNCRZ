@@ -57,7 +57,7 @@ export default function Header() {
                     </button>
 
                     {/* Контейнер для двойного меню */}
-                    <div className="fixed left-1/2 -translate-x-1/2 transform mt-8 bg-white border-[1px] border-gray-300 shadow-lg rounded-xl py-2 z-50 
+                    <div className="fixed left-1/2 -translate-x-1/2 transform mt-8 bg-white/35 border-[1px] border-white backdrop-blur-lg shadow-lg rounded-xl py-2 z-50 
     transition-all duration-150 ease-in-out opacity-0 scale-95 invisible group-hover:opacity-100 group-hover:scale-100 group-hover:visible flex"
                         style={{ transformOrigin: "top center" }}>
                         {/* Первое меню */}
