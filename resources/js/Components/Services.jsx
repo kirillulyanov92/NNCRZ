@@ -5,7 +5,7 @@ function Services() {
   return (
     <section className="text-gray-600 body-font">
         <div className="container px-5 pb-24 mx-auto">
-            <div className="flex flex-row w-full justify-between text-center mb-10">
+            <div className="flex flex-row w-full justify-between mb-10">
                 <div className='flex'>
                     <h1 className="sm:text-2xl text-2xl font-semibold title-font text-gray-900 mb-2">Услуги</h1>
                 </div>

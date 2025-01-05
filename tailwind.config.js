@@ -20,5 +20,11 @@ export default {
         },
     },
 
+    variants: {
+        extend: {
+          backdropBlur: ['hover', 'focus', 'group-hover'],
+        }
+    },
+
     plugins: [forms],
 };

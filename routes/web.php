@@ -42,6 +42,18 @@ Route::get('/medical-accreditation', function () {
     return Inertia::render('Direction/MedicalAccreditation');
 })->name('medical.accreditation');
 
+Route::get('/salidat-kairbekova', function () {
+    return Inertia::render('AboutCentre/SalidatKairbekova');
+})->name('salidat.kairbekova');
+
+Route::get('/about-centre', function () {
+    return Inertia::render('AboutCentre/AboutCentre');
+})->name('about.centre');
+
+Route::get('/vacancy-jobs', function () {
+    return Inertia::render('AboutCentre/Vacancy');
+})->name('vacancy.jobs');
+
 
 
 Route::middleware('auth')->group(function () {
